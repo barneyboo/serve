@@ -321,7 +321,7 @@ const loadConfig = async (cwd, entry, args) => {
 		process.exit(1);
 	}
 
-	await updateCheck(args['--debug']);
+	//await updateCheck(args['--debug']);
 
 	if (args['--version']) {
 		console.log(pkg.version);
